@@ -1,0 +1,58 @@
+footer{
+    width: 100%;
+    display: flex;
+    height: 80px;
+    background-color: rgb(50, 56, 56);
+    text-decoration: none;
+    position: absolute;
+    bottom: -1;
+    .privacidad-footer{
+        display: flex;
+        width: 33%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        a{
+            color: beige;
+            @media screen and (max-width: 1194px){
+                margin-left: 15px;
+            }
+        }
+        @media screen and (max-width: 1194px){
+            font-size: 7px;
+            width: 100%;
+        }       
+    }
+    .redes-footer{
+        display: flex;
+        width: 33%;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        color: beige;
+        font-size: 30px;
+        @media screen and (max-width: 1194px){
+            font-size: 20px;
+        }       
+    }
+    .derechos-footer{
+        display: flex;
+        width: 33%;
+        align-items: center;
+        text-align: center;
+        color: beige;
+        font-size: 10px;
+        @media screen and (max-width: 1194px){
+            font-size: 10px;
+            width: 100%;
+        }       
+    }
+    @media screen and (max-width: 792px){
+        flex-direction: column;
+        align-items:center;
+        height: 200px;
+        justify-content: space-around;
+    }       
+}

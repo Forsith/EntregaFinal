@@ -1,0 +1,20 @@
+/*-------PARTE PREDETERMINADA PARA EL CUERPO DE PAGINA--------*/
+@import "./cuerpo/reset";
+@import "./cuerpo/fuentes";
+@import "./cuerpo/body";
+@import "./cuerpo/header";
+@import "./cuerpo/footer";
+/*-------------PAGINA INDEX------------------*/
+@import "./Pagina-Index/main";
+/*-------------PAGINA INICIO----------------*/
+@import "./Pagina-inicio/contenedor-imagenes-inicio";
+/*-------------PAGINA PRODUCTOS-------------*/
+@import "./Pagina-productos/contenedor-productos";
+/*------------PAGINA CONTACTOS--------------*/
+@import "./Pagina-contacto/aviso-box";
+@import "./Pagina-contacto/contactos";
+/*------------PAGINA NOSOTROS--------------------*/
+@import "./Pagina-nosotros/nosotros";
+/*------------PAGINA REGISTRO-------------------*/
+@import "./Pagina-registro/registro";   
+@import "./extends/extend";

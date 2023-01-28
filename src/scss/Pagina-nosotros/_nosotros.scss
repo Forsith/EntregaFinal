@@ -1,0 +1,85 @@
+.nosotros{
+    background-color: rgba(0, 0, 0, 0.431);
+    height: 100;
+    display: flex;
+    flex-wrap: wrap;
+    .tittle{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-size:13px;
+        height: 80px;
+        @media screen and (min-width: 1042px){
+            font-size: 40px;
+        }
+    }
+    .second-tittle{
+        padding: 30px;
+        h2{
+            color: white;
+            text-align: center;
+            margin: 20px 0;
+            @media screen and (min-width: 1042px){
+                font-size: 40px;
+                margin-bottom: 60px;
+            }
+        }
+        p{
+            font-size: 13px;
+            text-align: center;
+            color: aquamarine;
+            @media screen and (min-width: 1042px){
+                font-size: 20px;
+                width: 50%;
+            }
+        }
+        @media screen and (min-width: 1042px){
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .objetivo-box{
+        padding: 30px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .obj{
+            color: aquamarine;
+            border: solid;
+            border-color: white;
+            padding: 10px;
+            margin-top: 40px;
+            text-align: center;
+            @media screen and (min-width: 1042px){
+                width: 520px;
+                margin: 30px;
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                h3{
+                    font-size: 30px;
+                    margin-bottom: 100px;
+                }
+                p{
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+        }
+        @media screen and (min-width: 1042px){
+            justify-content: space-around;
+            height: 500px;
+            flex-direction: row;
+        }
+    }
+    @media screen and (min-width: 1042px){
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    }
+}
